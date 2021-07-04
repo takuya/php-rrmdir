@@ -32,7 +32,6 @@ is_dir($ret);#=>false
 ```
 composer install
 composer dumpautoload
-rm tests/sample-data.json
 ./vendor/bin/phpunit
 ```
 
